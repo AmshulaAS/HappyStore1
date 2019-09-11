@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginpage2">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relative1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt"
+            android:textAlignment="center"
+            android:layout_marginStart="60dp"
+            android:textStyle="bold"
+            android:textColor="#ff99cc"
+            android:textSize="25dp"
+            android:text="! Find All In One Go !"/>
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:id="@+id/image0"
+            android:src="@drawable/logo1"
+            android:layout_marginTop="1dp"
+            android:layout_marginStart="320dp"
+            android:textAlignment="textEnd"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LIST_OF_ITEM"
+        android:textSize="20dp"
+        android:layout_below="@+id/relative1"
+        android:background="#e6005c"
+        android:text="List" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/PRICE"
+        android:text="Price"
+        android:textSize="20dp"
+        android:background="#e6005c"
+        android:layout_below="@+id/relative1"
+        android:layout_marginStart="2dp"
+        android:layout_toRightOf="@+id/LIST_OF_ITEM"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/decrementheading"
+        android:layout_toRightOf="@+id/PRICE"
+        android:textSize="20dp"
+        android:layout_below="@+id/relative1"
+        android:layout_marginStart="2dp"
+        android:background="#e6005c"
+        android:text="Increment" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/incrementheading"
+        android:layout_toRightOf="@+id/decrementheading"
+        android:textSize="20dp"
+        android:layout_marginStart="2dp"
+        android:layout_below="@+id/relative1"
+        android:background="#e6005c"
+        android:text="Decrement" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/totalprice"
+        android:layout_toRightOf="@+id/incrementheading"
+        android:layout_below="@+id/relative1"
+        android:textSize="20dp"
+        android:layout_marginStart="2dp"
+        android:background="#e6005c"
+        android:text="Total" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ADDTOLIST"
+        android:layout_toRightOf="@+id/totalprice"
+        android:textSize="20dp"
+        android:layout_below="@+id/relative1"
+        android:layout_marginStart="2dp"
+        android:background="#e6005c"
+        android:text="Cart" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myRecycler"
+        android:layout_marginTop="20dp"
+        android:alpha="0.6"
+        android:layout_below="@+id/ADDTOLIST">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/goToShoppingList"
+        android:layout_below="@+id/myRecycler"
+        android:text="GO TO SHOPPING LIST"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_rounded_corners_gradient"/>
+
+
+</RelativeLayout>

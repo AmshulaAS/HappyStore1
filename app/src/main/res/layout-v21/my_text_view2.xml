@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="10dp"
+    android:layout_marginStart="10dp"
+    android:orientation="horizontal"
+    android:background="#ffe6ff"
+    android:paddingBottom="10dp"
+    android:weightSum="4"
+    android:textColor="#000000">
+
+    <TextView
+        android:id="@+id/myListItemTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:layout_marginStart="10dp"
+        android:text="textview1" />
+
+    <TextView
+        android:id="@+id/myListItemTextViewPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_weight="1"
+        android:text="textview2" />
+
+    <TextView
+        android:id="@+id/myListItemTextQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:text="textview3" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/myListItemButtonIncrement"
+            android:layout_width="49dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:text="-"
+            android:textSize="10dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:id="@+id/myListItemEditText"/>
+
+        <Button
+            android:id="@+id/myListItemButtonDecrement"
+            android:layout_width="55dp"
+            android:layout_height="31dp"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:text="+"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/myListItemButtonAddToList"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:text="Cart"
+            android:textSize="10dp" />
+    </LinearLayout>
+</LinearLayout>

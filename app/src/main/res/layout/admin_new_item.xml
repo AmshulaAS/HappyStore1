@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/textv1"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ff99cc"
+        android:textStyle="bold"
+        android:text="Add New Items To The Store"
+        android:textAlignment="textStart"/>
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:id="@+id/image0"
+        android:src="@drawable/logo1"
+        android:layout_marginTop="1dp"
+        android:layout_marginStart="320dp"
+        android:textAlignment="textEnd"/>
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relative3">
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:textAlignment="center"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:entries="@array/Heading"
+            android:prompt="@string/heading"
+            />
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/spinner1"
+            android:layout_marginLeft="15dp"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name Of The Product"
+        android:textColorHint="#000"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#000"
+        android:id="@+id/name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#000"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:hint="Price Of The Product"
+        android:id="@+id/Price"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_rounded_corners_gradient"
+        android:text="Add an item"
+        android:id="@+id/addToList"/>
+</LinearLayout>
+</LinearLayout>

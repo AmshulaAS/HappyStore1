@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "139269295026",
+    "firebase_url": "https://happystore-264a9.firebaseio.com",
+    "project_id": "happystore-264a9",
+    "storage_bucket": "happystore-264a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139269295026:android:a1748e09d32be606",
+        "android_client_info": {
+          "package_name": "com.example.happystore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139269295026-t66s9iqga3cbpgbk4on7fh3b1ffvoi9m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.happystore",
+            "certificate_hash": "5b7629f25cfebd63bafb598ac59f1294773e078e"
+          }
+        },
+        {
+          "client_id": "139269295026-r0qcor3lm3oklfneqtrb0vcip3d8dqfn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-0Gd17UzwQtu2p4-EKrZtdd1G_5RgnHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139269295026-r0qcor3lm3oklfneqtrb0vcip3d8dqfn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

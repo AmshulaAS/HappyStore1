@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    android:background="#fff"
+    android:weightSum="9"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:textStyle="normal"
+        android:textSize="20dp"
+        android:layout_weight="2"
+        android:id="@+id/namecart"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textStyle="normal"
+        android:textSize="20dp"
+        android:layout_weight="2"
+        android:id="@+id/quantitycart"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rs:0"
+        android:textStyle="normal"
+        android:textSize="20dp"
+        android:layout_weight="2"
+        android:id="@+id/pricecart"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:text="0"
+        android:textStyle="normal"
+        android:id="@+id/totalPriceCart"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:src="@drawable/ic_delete_black_24dp"
+        android:id="@+id/delete"/>
+
+</LinearLayout>

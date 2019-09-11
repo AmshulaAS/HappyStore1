@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">HappyStore</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="link"><a href="http://schemas.android.com/apk/res/android/">Forgot Password?</a></string>
+<string name="heading">Select Heading</string>
+    <string-array name="Heading">
+        <item>HomeNeeds</item>
+        <item>GroceryStaples</item>
+        <item>FruitsVegetables</item>
+        <item>Beverages</item>
+        <item>PersonalCare</item>
+        <item>kidsUtilities</item>
+        <item>Fashion</item>
+    </string-array>
+
+    <string-array name="HomeNeeds">
+        <item>CleaningAccessories</item>
+        <item>Cookware</item>
+        <item>Detergents</item>
+        <item>Electricals</item>
+        <item>FestivalNeeds</item>
+    </string-array>
+
+    <string-array name="GroceryStaples">
+        <item>BiscuitsBreads</item>
+        <item>CerealsGrains</item>
+        <item>OilGhee</item>
+        <item>InstantFood</item>
+        <item>Masalaspices</item>
+    </string-array>
+
+    <string-array name="FruitsVegetables">
+        <item>ExoticVegetables</item>
+        <item>Fruits</item>
+        <item>ImportedFruits</item>
+        <item>Vegetables</item>
+        <item>DryFruits</item>
+    </string-array>
+
+    <string-array name="Beverages">
+        <item>Healthdrinks</item>
+        <item>Energydrink</item>
+        <item>Softdrink</item>
+        <item>Coffeecans/Tea</item>
+        <item>Mineralwater</item>
+    </string-array>
+
+    <string-array name="PersonalCare">
+        <item>Fashionaccessories</item>
+        <item>Haircarecosmetics</item>
+        <item>SanitaryNeeds</item>
+        <item>ShavingNeeds</item>
+        <item>Deos/Perfumes</item>
+    </string-array>
+
+    <string-array name="kidsUtilities">
+        <item>Schoolneeds</item>
+        <item>Toys/Games</item>
+        <item>Kidscare</item>
+    </string-array>
+
+    <string-array name="Fashion">
+        <item>Men</item>
+        <item>Women</item>
+        <item>Kids</item>
+    </string-array>
+</resources>
